@@ -1,0 +1,25 @@
+.container1{
+    width: 100%;
+    padding: 20px 10%;
+    margin: 0;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.img1{
+    
+}
+.img1>img{
+    width: 60%;
+    /* position: relative; */
+    margin-top: 60px;
+}
+.imgspan1{
+    position: absolute;
+    width: 60%;
+    background-color: gray;
+    padding: 30px;
+    left: 30%;
+}
