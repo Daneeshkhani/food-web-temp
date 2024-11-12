@@ -98,15 +98,49 @@
     font-size: 25px;
 }
 .container3{
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
     display: flex;
     padding: 100px 0;
+    position: relative;
     
 }
 .container3>.left{
     width: 40%;
+    font-size: 30px;
+    font-weight: bolder;
+    align-items: center;
+    display: flex;
+    background-color: yellow;
+
   
 }
+.container3>img{
+    width: 490px;
+    height: 524px;
+    position: absolute;
+    left: 26%;
+    top: -20%;
+}
+.container3>.left>h2,.container3>.left>p{
+    color: black;
+}
 .container3>.right{
-    width: 40%;
+    width: 50%;
+    padding-left: 200px;
+    margin-left: 100px;
+
+}
+.container3>.right *{
+    color: black;
+}
+.right>.sub-right{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    
+}
+.container4{
+    background-color: gray;
+    text-align: center;
+    padding: 50px;
 }
