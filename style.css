@@ -119,7 +119,7 @@
     height: 524px;
     position: absolute;
     left: 26%;
-    top: -20%;
+    bottom: 0%;
 }
 .container3>.left>h2,.container3>.left>p{
     color: black;
